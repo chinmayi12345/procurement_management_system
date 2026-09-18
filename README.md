@@ -136,8 +136,8 @@ Make sure not to commit sensitive passwords or credentials to version control. T
 
 | Variable | Description | Default |
 | :--- | :--- | :--- |
-| `SPRING_DATASOURCE_USERNAME` | MySQL database username | `root` |
-| `SPRING_DATASOURCE_PASSWORD` | MySQL database password | `root` |
+| `DB_USERNAME` | MySQL database username | `root` |
+| `DB_PASSWORD` | MySQL database password | Empty |
 | `MAIL_USERNAME` | SMTP Email username | Optional |
 | `MAIL_PASSWORD` | SMTP App password | Optional |
 | `JWT_SECRET` | HMAC Secret key for JWT | Configured default |
