@@ -1,0 +1,18 @@
+package com.infosys.procurementsystem.enums;
+
+public enum NotificationType {
+
+    REQUEST_APPROVED,
+
+    PAYMENT_DETAILS_SENT,
+    PAYMENT_COMPLETED,
+
+    PRODUCT_READY_TO_SHIP,
+    TRACKING_DETAILS_SENT,
+    PRODUCT_SHIPPED,
+    PRODUCT_IN_TRANSIT,
+    PRODUCT_DELIVERED,
+
+    RATING_RECEIVED,
+    GENERAL
+}

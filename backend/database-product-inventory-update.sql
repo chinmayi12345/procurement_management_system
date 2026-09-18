@@ -1,0 +1,5 @@
+-- Product inventory/image fields are created automatically because spring.jpa.hibernate.ddl-auto=update.
+-- New columns on products:
+-- available_stock INT NOT NULL DEFAULT 0
+-- image_data LONGTEXT NULL
+-- No manual SQL is required when starting the updated Spring Boot application.
